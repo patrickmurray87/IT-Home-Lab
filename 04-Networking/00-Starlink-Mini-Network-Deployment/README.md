@@ -35,8 +35,27 @@ This deployment provides secure internet access for trusted personal devices whi
 - TP-Link Archer AX53 v1.0
 - Ethernet connection from Starlink Mini to AX53 WAN Port
 
+---
+
+## Firmware
 Firmware:
 1.5.4 Build 20250926
+
+**Firmware Information**
+
+![Firmware](screenshots/Firmware.png)
+Current firmware configuration.
+---
+
+## Technologies
+
+- Starlink Mini
+- TP-Link Archer AX53
+- TP-Link Tether
+- DHCP
+- WPA2/WPA3
+- Quality of Service (QoS)
+- Guest Network Isolation
 
 ---
 
@@ -47,6 +66,11 @@ Firmware:
 - WAN Type: Dynamic IP (DHCP)
 - Starlink Router: Bypass Mode Enabled
 - Internet Connectivity Verified
+
+**Dashboard**
+
+![Router Dashboard](screenshots/dashboard.png)
+The router dashboard confirms a successful WAN connection to the Starlink Mini operating in Bypass Mode.
 
 ---
 
@@ -67,6 +91,11 @@ Security
 - WPA2/WPA3
 - Strong password
 
+**Main Network**  
+
+![Main Network](screenshots/Main%20Settings.png)
+The trusted wireless network used for personal devices.
+
 ---
 
 ### Guest Network
@@ -80,9 +109,14 @@ Configuration
 - 5 GHz Enabled
 - Local Network Access Disabled
 
-Result
+Outcome
 
 Guest devices can access the internet but cannot access resources on the primary network.
+
+**Guest Network**
+
+![Guest Network](screenshots/Guest%20Settings.png)
+Guest wireless network configured with local network access disabled.
 
 ---
 
@@ -98,6 +132,11 @@ High Priority Devices
 Purpose
 
 Ensure important devices receive bandwidth preference during periods of heavy network usage.
+
+**QoS Configuration**
+
+![QoS](screenshots/QoS%20Settings.png)
+Priority devices configured through the TP-Link Tether application.
 
 ---
 
@@ -145,6 +184,12 @@ Ensure important devices receive bandwidth preference during periods of heavy ne
 - Configure remote administration securely
 - Deploy a managed switch for VLAN segmentation
 - Expand the network with EasyMesh access points
+
+---
+
+## Key Takeaways
+
+This project provided hands-on experience configuring a consumer router for production use, integrating third-party networking hardware with Starlink, implementing wireless network segmentation, and documenting a real-world deployment using GitHub.
 
 ---
 
