@@ -38,13 +38,15 @@ This deployment provides secure internet access for trusted personal devices whi
 ---
 
 ## Firmware
+
 Firmware:
 1.5.4 Build 20250926
 
 **Firmware Information**
 
-![Firmware](screenshots/Firmware.png)
-Current firmware configuration.
+![Firmware](screenshots/firmware.png)
+Current firmware configuration
+
 ---
 
 ## Technologies
@@ -93,7 +95,7 @@ Security
 
 **Main Network**  
 
-![Main Network](screenshots/Main%20Settings.png)
+![Main Network](screenshots/main-settings.png)
 The trusted wireless network used for personal devices.
 
 ---
@@ -115,7 +117,7 @@ Guest devices can access the internet but cannot access resources on the primary
 
 **Guest Network**
 
-![Guest Network](screenshots/Guest%20Settings.png)
+![Guest Network](screenshots/guest-settings.png)
 Guest wireless network configured with local network access disabled.
 
 ---
@@ -135,7 +137,7 @@ Ensure important devices receive bandwidth preference during periods of heavy ne
 
 **QoS Configuration**
 
-![QoS](screenshots/QoS%20Settings.png)
+![QoS](screenshots/qos-settings.png)
 Priority devices configured through the TP-Link Tether application.
 
 ---
