@@ -69,7 +69,7 @@ Current firmware configuration
 - Starlink Router: Bypass Mode Enabled
 - Internet Connectivity Verified
 
-** Router Dashboard**
+**Router Dashboard**
 
 ![Router Dashboard](screenshots/dashboard.png)
 The router dashboard confirms a successful WAN connection to the Starlink Mini operating in Bypass Mode.
